@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+    <form>
+        <label for="first-name">Nombre:</label>
+        <input type="text" id="first-name" required/>
+
+        <br/>
+
+        <label for="phone-number">Teléfono:</label>
+        <input type="tel" id="phone-number" required/>
+
+        <br/>
+
+        <label for="email">Correo:</label>
+        <input type="email" id="email" required/>
+
+        <br/>
+
+        <label for="age">Edad:</label>
+        <input type="number" id="age" required/>
+
+        <br/>
+
+        <label for="avatar">Agrega tu foto de perfil:</label>
+        <input type="file" id="avatar" accept="image/png, image/jpeg" required/>
+
+        <br/>
+
+        <fieldset>
+            <legend> ¿cuales son tus hobbies?</legend>
+            <input type="checkbox" id="sport" checked/>
+            <label for="sport">Deportes</label>
+
+            <input type="checkbox" id="knit"/>
+            <label for="knit">Tejer</label>
+
+            <input type="checkbox" id="read">
+            <label for="read">Leer</label>
+
+            <input type="checkbox" id="play-instrument"/>
+            <label for="play-instrument">Tocar un instrumento</label>
+
+            <input type="checkbox" id="listen-music"/>
+            <label for="listen-music">Escuchar musica</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Selencciona tu grado escolar actual</legend>
+
+            <input type="radio" id="primary" name="school-grade"/>
+            <label for="primary">Primaria</label>
+
+            <input type="radio" id="Secundary" name="school-grade"/>
+            <label for="Secundary">Secundaria</label>
+        
+            <input type="radio" id="Preparatoria" name="school-grade" checked/>
+            <label for="Preparatoria">Preparatoria</label>
+
+            <input type="radio" id="university" name="school-grade"/>
+            <label for="university">Universidad</label>
+        
+        </fieldset>
+
+        <input type="range">
+        <input type="color">
+        <input type="date">
+
+        <br/>
+        <br/>
+
+        <button>Registrarse</button>
+      
+
+    </form>
+</body>
+</html>
