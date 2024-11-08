@@ -1,0 +1,29 @@
+body{
+    /*background: gold;*/
+    /*este es un comentario*/
+    font-family: sans-serif;
+}
+
+p {
+    /*background: dodgerblue;*/ 
+}
+.parrafo-bonito {
+    background-color: blue;
+    font:100;
+}
+
+#parrafo-unico {
+    color: brown;
+    font: 400;
+}
+.link-especial{
+    color: black;
+}
+
+a{
+    color: aqua;
+}
+
+a {
+    color: blueviolet;
+}
