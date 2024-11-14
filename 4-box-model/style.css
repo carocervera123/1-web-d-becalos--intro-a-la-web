@@ -52,6 +52,8 @@ p{
 #Parrafo-1{
     background-color: pink;
     background-clip: border-box;
+    width: 200px;
+    height: 300px;
 }
 
 #Parrafo-2{
@@ -68,4 +70,16 @@ h2{
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
     background-clip: text;
     color: transparent;
+}
+
+span{
+    color: blueviolet;
+    background-color: black;
+    padding: 5px;
+    border: solid 3px rgb(168, 109, 222);
+    margin: 16px;
+    /*display:inline-block;*/
+    width: 200px;
+    height: 50px;
+    display: block;
 }
