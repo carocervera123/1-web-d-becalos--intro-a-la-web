@@ -1,0 +1,71 @@
+body{
+    background-color: rgba(154, 143, 81, 0.362);
+}
+
+/*h1 son etiquetas de tipo block*/
+h1{
+    background-color: lavender;
+    /*Box-model*/
+    /*padding: 16px; para el espacio arriba, abajo y a los lados*/
+    /*padding-block: 16px; espacio arriba y abajo*/
+    /*el bock significa leer de arriba hacia abajo*/
+    /*pading-inline es para leer en una linea*/
+    padding-block-start: 1px;
+    padding-block-end: 16px;
+    padding-inline-start: 50px;
+    padding-inline-end: 20px;
+
+    /*forma abreviada*/
+    padding-block: 1px 16px;
+    padding-inline: 50px 20px;
+    /*para hacerlo general
+    padding-top: ;
+    padding-left: ;
+    padding-bottom: ;
+    padding-right: ;*/
+
+    border: dashed 5px dodgerblue;
+    
+
+    margin-block-start: 50px;
+    margin-block-end: 5px;
+    margin-inline-start: 30px;
+    margin-inline-end: 10px;
+
+    /*abreviado*/
+    margin-block: 50px 5px;
+    margin-inline: 30px 10px;
+
+
+    /*de forma general*/
+    margin-block: 10px;
+    margin-inline: 20px;
+    margin: 16px;
+}
+
+p{
+    background-color: aliceblue;
+    padding: 16px;
+    border: 5px dashed blueviolet;
+}
+
+#Parrafo-1{
+    background-color: pink;
+    background-clip: border-box;
+}
+
+#Parrafo-2{
+    background-color: aquamarine;
+    background-clip: padding-box;
+}
+
+#Parrafo-3{
+    background-color: brown;
+    background-clip: content-box;
+}
+
+h2{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background-clip: text;
+    color: transparent;
+}
